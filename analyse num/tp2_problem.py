@@ -34,7 +34,6 @@ def Algo_descente(T, N,B):
 def Algo_descente_rec(T, N, B, i, X=None):
     if TriangulaireInf_Matrice(T, N) == False:
         print("La matrice n'est pas triangulaire inférieure")
-        
         return None
     if X is None:
         X = [0 for _ in range(N)]
